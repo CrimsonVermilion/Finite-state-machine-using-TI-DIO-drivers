@@ -1,0 +1,43 @@
+# ninja log v5
+75	338	6721963700000000	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 progress2/Debug/BrowseInfo/DIO.xcl	b53444d56cfebabf
+393	463	6730510150019431	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+1	328	6721963700000000	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 progress2/Debug/BrowseInfo/main.xcl	ed2f77785cc8faa1
+334	503	6721963704327028	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 progress2/Debug/BrowseInfo/main.pbi	c8ab179f97e6bcd2
+344	544	6721963704739754	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 progress2/Debug/BrowseInfo/DIO.pbi	e7e51d7ce15f63b6
+548	850	6721963707793573	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 progress2/Debug/BrowseInfo/ass2.pbd	a6e165b7191b11d6
+855	3394	6721963732545664	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 progress2/Debug/BrowseInfo/ass2.pbw	4fbedbdf06960cb2
+0	202	6730510140000000	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/DIO.xcl	79b705d00840a055
+18	222	6730510140000000	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.xcl	8546641bb93fc945
+209	382	6730510149198836	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/DIO.pbi	6f925947af0ccb9d
+230	389	6730510149247833	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+468	2507	6730510169298982	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+1	136	6730510936845671	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+141	231	6730510937779947	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+236	2613	6730510960695493	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+4	141	6730511773335899	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+145	216	6730511774094127	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+221	2250	6730511793526577	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+2	182	6730515449551441	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+187	304	6730515450777487	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+310	4931	6730515496163747	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+1	386	6730517432787447	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+390	468	6730517433627053	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+473	2313	6730517451409366	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+1	183	6730518979393073	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+187	277	6730518980338582	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+2	2384	6730519113985359	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+1	350	6730528198381899	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+354	540	6730528200263163	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+1	2071	6730528273591706	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+1	165	6730537882255521	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+169	266	6730537883280880	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+270	2140	6730537900945691	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+2	279	6730540337889700	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+283	384	6730540338960944	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+392	3218	6730540365862937	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+2	104	6730540724679726	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+108	190	6730540725565287	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+195	2498	6730540747546882	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e
+2	135	6734310278277811	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/main.pbi	8f809729a579ae58
+139	414	6734310281069635	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbd	d85052ab121d31c4
+1	3602	6734310372766690	D:/Study/3rd mechatronics/2nd Term/embedded projects/IAR/lab4 round 2/Debug/BrowseInfo/ass2.pbw	e6f7a9da0572643e

@@ -1,0 +1,51 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\DIO.c" -xcl_file "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.xcl" -macro_file "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\DIO.c" -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -On --predef_macros "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.tmp"
+  rspfile_name = D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.xcl.rsp
+
+build D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\main.c" -xcl_file "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.xcl" -macro_file "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\main.c" -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -On --predef_macros "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.tmp"
+  rspfile_name = D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.pbi : INDEXER D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.xcl |  $
+D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\DIO.c
+  flags = "-out=D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.pbi" -f "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.xcl"
+
+build D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.pbi : INDEXER D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.xcl |  $
+D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\main.c
+  flags = "-out=D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.pbi" -f "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.xcl"
+
+build D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\ass2.pbw : MAKEBROWSE D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\ass2.pbd
+  flags = "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\ass2.pbd" -output "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\ass2.pbw"
+
+build D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\ass2.pbd : PDBLINK D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.pbi |  $
+D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.pbi
+  flags = -M "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\ass2.pbd" "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\DIO.pbi" "D$:\Study\3rd$ mechatronics\2nd$ Term\embedded$ projects\IAR\lab4$ round$ 2\Debug\BrowseInfo\main.pbi"
+
